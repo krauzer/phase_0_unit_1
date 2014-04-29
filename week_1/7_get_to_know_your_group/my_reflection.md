@@ -5,13 +5,15 @@ Copy the email you sent to your group in this file.
 INTRO: 
 
 Name: Dylan Krause
+
 Location: Milford, PA (right now)
+
 Favorite Websites: 
 -->Phys.org: http://phys.org/
 -->Goodreads: https://www.goodreads.com/
 -->Hype Machine: http://hypem.com/
 
-Learning Style:
+Learning Style: 
 -->Visual: 13
 -->Aural: 3
 -->Read/Write: 12
