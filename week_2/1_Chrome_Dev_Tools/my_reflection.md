@@ -21,4 +21,4 @@
 
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
-	-->![Quirksmode](http://www.quirksmode.org/dom/intro.html)
+	-->[Quirksmode](http://www.quirksmode.org/dom/intro.html)
