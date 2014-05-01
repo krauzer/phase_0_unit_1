@@ -1,1 +1,41 @@
-/* include your css here */
+/* CSS for GPS_1.1 Rootul Patel and Dylan Krause */
+
+    #header{
+      width:100%;
+      height:20%;
+      background-color:red;
+      }
+    #main{
+      width:75%;
+      height:650px;
+      background-color:blue;
+      display:inline-block;
+      float:right;
+      color: grey;
+    }
+    #sidebar{
+      width:25%;
+      height:650px;
+      background-color:green;
+      float: left;
+      display:inline-block;
+    }
+    #footer{
+      font-family: copperplate, fantasy;
+      background-color:white;
+      height: 50px;
+      width: 100%;
+      text-align: center;
+      padding: 30px 30px;
+    }
+    img{
+      height:200px;
+      width:300px;
+    }
+    
+    a{
+      text-decoration:none;
+    }
+    a:hover{
+      color:red;
+    }
