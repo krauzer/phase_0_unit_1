@@ -4,21 +4,21 @@ Define the following commands and describe how they work/what they do.
 
 #### add
 
-($ git add _fileName_) takes a new file that's in the working directory and adds it to the staging area. It also allows git to begin tracking that file. 
+($ git add _file_name_) takes a new file that's in the working directory and adds it to the staging area. It also allows git to begin tracking that file. 
 
 #### branch
 
 A branch is a copy of your code in your repo. You can have many branches. The master branch is the main one. 
 
-($ git branch _new branchName_) allows to you create a branch that you can make separate commits to. 
+($ git branch _new_branch_name_) allows to you create a branch that you can make separate commits to. 
 
 ($ git branch) prints out the list of local branches and which one you're on. 
 
-($ git -d _branchName_) deletes a branch if it has been merged. Use (git -D _branchName_) to force a delete if it hasn't been merged. 
+($ git -d _branch_name_) deletes a branch if it has been merged. Use (git -D _branch_name_) to force a delete if it hasn't been merged. 
 
 #### checkout
 
-($ git checkout _branch_) allows you to switch to the named branch if it is a branch in your local repo. ($ git checkout _commit_ _file_) switches your working directory back to a file for a particular named commit. ($ git checkout _commit_) switches you back to that named commit. 
+($ git checkout _branch_) allows you to switch to the named branch if it is a branch in your local repo. ($ git checkout _commitHASH_ _file_) switches your working directory back to a file for a particular named commit. ($ git checkout _commitHASH_) switches you back to that named commit. 
 
 
 
@@ -48,15 +48,15 @@ A branch is a copy of your code in your repo. You can have many branches. The ma
 
 #### push
 
-($ git push _remoteName_ _branchName_) pushes from the local branch to teh remote branch. Typically it looks like this (git push origin master). You can save he parameters for future use using the (-u) option. In other words, ($ git push -u origin master) allows for ($ git push) to do the same thing in later uses. 
+($ git push _remote_name_ _branch_name_) pushes from the local branch to the remote branch. Typically it looks like this (git push origin master). You can save he parameters for future use using the (-u) option. In other words, ($ git push -u origin master) allows for ($ git push) to do the same thing in later uses. 
 
 #### reset
 
-($ git reset _name_) removes the named file from the staging area. ($ git reset) resets the staging area to match the most recent commit. Only use this to undo local changes, not anything that hs been pushed to a public repository. ($ git reset _commit_) is a way to undo a commit. It is dangerous because it is permanent. 
+($ git reset _name_) removes the named file from the staging area. ($ git reset) resets the staging area to match the most recent commit. Only use this to undo local changes, not anything that hs been pushed to a public repository. ($ git reset _commitHASH_) is a way to undo a commit. It is dangerous because it is permanent. 
 
 #### rm
 
-($ git rm _name_) removes the named file from the disk. It also stages that removal. To remove all subfiles and folders of a named folder you have you use the recursive option (-r) ($ git rm -r _folder with sub folders_). Once removed you still have to commit the removals! 
+($ git rm _name_) removes the named file from the disk. It also stages that removal. To remove all subfiles and folders of a named folder you have you use the recursive option (-r) ($ git rm -r _folder_). Once removed you still have to commit the removals! 
 
 Files not deleted with rm are still on the working tree! git rm them or use the -a option (-a)
 on git commit. ($ git commit -am "Deletions w/ auto removal feature")
@@ -69,11 +69,9 @@ on git commit. ($ git commit -am "Deletions w/ auto removal feature")
 
 - Push files to a remote repository
 
-	1. Create Link between local and remote repositories:
+	1. Create Link between local and remote repositories (Done only once):
 
 	$ git remote add origin _url of repository(//site/username/name_of_repo.git)_
-	
-	do this once 
 
 	2. Push your files 
 	
@@ -81,11 +79,9 @@ on git commit. ($ git commit -am "Deletions w/ auto removal feature")
 
 - Fetch changes 
 
-	1. First, add a remote that points to the upstream repository: 
+	1. First, add a remote that points to the upstream repository (Done only once): 
 
 	$ git remote add upstream _url of main remote repo(https://github.com/username_to_fetch_from/repo_name)_
-
-	 do this only once
 
 	2. Fetch the upstream: 
 
