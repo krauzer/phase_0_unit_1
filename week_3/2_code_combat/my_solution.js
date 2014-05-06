@@ -224,7 +224,36 @@ this.attackXY(63,56);
 
 
 
+// What parts of your strategy worked? What problems did you face?
 
+     // I didn't really have a strategy for code combat beyond playing the game. I thought the 
+     // the Javascript was basic enough not to require any coding strategy. 
+
+// What questions did you have while coding? What resources did you find to help you answer them?
+
+     // No questions for this one. I have practiced with javascript before so this all seemed very basic. 
+
+// What concepts are you having trouble with, or did you just figure something out? If so, what?
+
+     // I only had trouble with one mission, and it was because I couldn't figure out how to work the different 
+	// menus. Everything else seemed self-explanatory. 
+
+ // Did you learn any new skills or tricks?
+
+	// Maybe how to develop a game using basic Javascript conceptually. I think this will come in handy for development
+	// later. 
+
+// How confident are you with each of the Learning Competencies?
+
+	// Very confident. 
+
+// Which parts of the challenge did you enjoy?
+
+	// I enjoyed playing the game and bombing ogres. 
+
+// Which parts of the challenge did you find tedious?
+
+	// None really. 
 
 
 
