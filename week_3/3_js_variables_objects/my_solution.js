@@ -1,17 +1,31 @@
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself] on this challenge.
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+// Define a variable, secretNumber, as a number
+// Change secretNumber to seven
+// Define a variable, password, as a string
+// Change password to "just open the door"
+// Define a variable, allowedIn, as true
+// Change allowedIn to false
+// Create an array colled members 
+// Push "John" into members 
+//Add "Mary" as fourth element of members 
 
 
 // __________________________________________
 // Write your code below.
+var secretNumber = 16; 
+secretNumber = 7; 
+var password = "here";
+password = "just open the door"; 
+var allowedIn = true; 
+allowedIn = false; 
+var members = []; 
+members.push("John"); 
+members[3] = "Mary"; 
 
 
 
@@ -21,25 +35,31 @@
 
 // __________________________________________
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
-
+var secretNumber = 7; 
+var password = "just open the door"; 
+var allowedIn = false; 
+var members = ["John",,,"Mary"]; 
 
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
-// 
-// 
+
+// This was a pretty straight forward challenge. I guess the difficulty was dealing with the driver code, 
+// but I had read through it a couple times before I started and looked up assertions. These seem more like pseudoassertions 
+
+// I didn't have any questions about this material. To be honest, I skipped this challenge and am doing it last. 
+// I enjoyed working through the terminal and look forward to keeping up with that. I also want to work with arrays more. 
+
+// I should, and hope to, spend more time looking and working on Driver code. It is probably the msot tedious aspect 
+// of all of this, but it isn't really that big of a time drain. 
 
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
 
-function assert(test, message, test_number) {
+function assert(test, message, test_number){
   if (!test) {
     console.log(test_number + "false");
     throw "ERROR: " + message;
