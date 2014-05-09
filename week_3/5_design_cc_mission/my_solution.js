@@ -279,7 +279,7 @@ thalin.escapes;
 
 // Reflection
 // 
-// At first, I thought this excercise was a little tedius. It was different and yes there are 
+// At first, I thought this exercise was a little tedious. It was different and yes there are 
 //  javaScript concepts to be learned, but I thought the amount of time you put into to doesn't really 
 //  match what you get out of it in terms of learning. My idea was that iff we're only going to have a week to work on 
 // 	javaScript I think time would have been more productive with something else. All of the tasks seem heavy 
